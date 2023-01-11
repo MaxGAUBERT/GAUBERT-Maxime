@@ -1,0 +1,48 @@
+GET http://localhost:3000/hello
+
+###
+POST http://localhost:3000/hello
+
+###
+PUT http://localhost:3000/hello/Cal
+
+###
+DELETE http://localhost:3000/hello/33
+
+###
+GET http://localhost:3000/Playlist
+
+###
+GET http://localhost:3000/Playlist
+
+###
+POST http://localhost:3000/Playlist
+
+
+###
+POST http://localhost:3000/Playlist
+Content-Type: application/json
+
+{
+    "Name_Playlist": "test",
+    "name_music": "hfqcd"
+}
+
+###
+POST http://localhost:3000/Playlist
+Content-Type: application/json
+
+{
+    
+    "name_music": ""
+}
+
+
+###
+POST http://localhost:3000/Playlist
+Content-Type: application/json
+
+{
+    "Name_Playlist": "test",
+    "name_music": "hfqcd"
+}
